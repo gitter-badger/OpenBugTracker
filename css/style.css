@@ -7,8 +7,12 @@
  * 
  * OpenBugTracker it's a Open Source bug tracker and it's under the MIT License.
  */
-Show warning when javascript is disable
-*/
+
+body {
+	min-width: 1000px; /* Minimum width of the page */
+}
+
+ /* Show warning when javascript is disable */
 #noJava {
 	font-size: 25px;
 	top: 0px;
@@ -33,4 +37,92 @@ Show warning when javascript is disable
 	width: 100%;
 	height: 41px;
 	background-color: #104E8B;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+/* Where the controls of the mainbar are located */
+
+#header {
+	width: 1000px;
+	margin: auto;
+	height: 41px;
+	/*line-height: 39px;*/
+}
+
+/* Remove ul dots */
+
+#header ul {
+	list-style: none;
+}
+
+/* Display list in line*/
+#header ul li {
+	display: inline;
+}
+
+/* Remove a tag decoration n header */
+#header * a, #header a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+#logo {
+	max-height: 35px;
+	min-height: 35px;
+	width: auto;
+	margin-top: 3px;
+	float: left;
+	background-color: #FFF; /* UNTIL NO LOGO */
+}
+
+/* Search */
+#search {
+	line-height: 40px;
+	float: left;
+	padding: 0px 10px;
+}
+
+/* Search input */
+#search form input {
+	width: 250px;
+	color: gray;
+	font-style: italic;
+	border-radius: 3px;
+	box-shadow: none;
+	border-style: none;
+	height: 24px;
+}
+
+/* Main menu */
+#mainMenu {
+	float: left;
+	line-height: 13px;
+	padding: 0px 10px;
+}
+
+/* Main menu inner li */
+#mainMenu li {
+	margin-right: 10px;
+}
+
+/* User menu */
+#userMenu {
+	float: right;
+	margin-top: auto;
+}
+
+/* User menu icons size */
+#userMenu li img {
+	width: 20px;
+}
+/* Private message icon position */
+#privateMessage img {
+	margin-top: 10px;
+}
+
+/* Notification icon position */
+#notification img {
+	padding-bottom: 1px;
 }
