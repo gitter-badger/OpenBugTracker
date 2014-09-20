@@ -27,7 +27,7 @@ include 'configuration.php';
 		<?php include 'common_head.php'; ?>
 	</head>
 
-	<body>
+	<body onload="load()">
 		<?php
 		include 'noJava.php';
 		include 'mainBar.php';

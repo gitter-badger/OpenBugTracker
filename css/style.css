@@ -107,16 +107,32 @@ body {
 	margin-right: 10px;
 }
 
+/* Text color of main menu elements and user control when hover */
+#mainMenu li a:hover, #userControl a:hover  {
+	color: #60AFFE;
+}
+
 /* User menu */
 #userMenu {
 	float: right;
 	margin-top: auto;
 }
 
+/* Spacing between elements */
+#userMenu li {
+	padding-left: 5px;
+}
+
 /* User menu icons size */
 #userMenu li img {
 	width: 20px;
 }
+
+/* Change cursor when private message and notification are hover */
+#privateMessage:hover, #notification:hover {
+	cursor: pointer;
+}
+
 /* Private message icon position */
 #privateMessage img {
 	margin-top: 10px;
@@ -125,4 +141,10 @@ body {
 /* Notification icon position */
 #notification img {
 	padding-bottom: 1px;
+}
+
+/* User name position */
+#userControl span {
+	position: relative;
+	top: -5px;
 }
