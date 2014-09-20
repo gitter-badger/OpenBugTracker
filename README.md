@@ -10,6 +10,11 @@ Flavors of OpenBugTracker
 | :-: | :-: | :-: | :-: |
 | <a href="#welcome-to-openbugtracker">OpenBugTracker</a> | HTML, CSS <br> JavaScript, PHP | The web version. | Active |
 
+Talk to us
+-
+You can talk to us in or IRC at `irc.freenode.net` in the channel `#openbugtracker`
+
+
 What do I need to use OpenBugTracker?
 -
 See in the [Wiki](https://github.com/Hugao/OpenBugTracker/wiki/Using-OpenBugTracker).
