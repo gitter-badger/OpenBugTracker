@@ -1,3 +1,13 @@
+/*
+ * script.js
+ * 
+ * Copyright 2014 Hugo Rodrigues hugaomrodrigues<at>gmail<dot>com
+ * 
+ * This file is part of OpenBugTracker.
+ * 
+ * OpenBugTracker it's a Open Source bug tracker and it's under the MIT License.
+ */
+
 var pageLoaded = false;// Check's if the page is loaded
 
 //Function to run on page event onload
@@ -22,7 +32,11 @@ function enterSearch(searchDefault)
 	{
 		var search = document.getElementById('searchBox');
 		if (search.value == searchDefault)
+		{
 			search.value = '';
+			search.style.color = '#000';
+			search.style.fontStyle = 'normal';
+		}
 	}
 }
 
@@ -35,6 +49,10 @@ function exitSearch(searchDefault)
 	{
 		var search = document.getElementById('searchBox');
 		if(search.value == '')
+		{
+			search.style.color = 'gray';
+			search.style.fontStyle = 'italic';
 			search.value = searchDefault;
+		}
 	}
 }
