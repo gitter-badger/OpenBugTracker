@@ -22,4 +22,7 @@ $config_charset = '';
 
 //Description of the platform
 $config_description = '';
+
+//Default url of the platform (ex: http://www.example.com/bugtracker)
+$config_defaultUrl = '';
 ?>

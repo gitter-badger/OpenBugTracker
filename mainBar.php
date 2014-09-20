@@ -14,7 +14,7 @@ $searchDefault = 'Search';
 ?>
 <div id="mainBar">
 	<div id="header">
-		<a href="<?php echo 'http://' . $_SERVER[HTTP_HOST] . dirname($_SERVER[REQUEST_URI]); ?>" id="logo"><img src="">_</a>
+		<a href="<?php echo $config_baseUrl; ?>" id="logo"><img src="">_</a>
 		<div id="search">
 			<form action="search.php" method="POST">
 				<input type="search" id="searchBox" onclick="enterSearch('<?php echo $searchDefault; ?>')" onblur="exitSearch('<?php echo $searchDefault; ?>')" value="<?php echo $searchDefault; ?>">
