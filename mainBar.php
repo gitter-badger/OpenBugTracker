@@ -14,7 +14,7 @@ $searchDefault = 'Search';
 ?>
 <div id="mainBar">
 	<div id="header">
-		<a href="<?php echo $config_baseUrl; ?>" id="logo"><img src="">_</a>
+		<a href="<?php echo $config_baseUrl; ?>" id="logo"><img src="images/logo.png" <?php if($config_logoHover) { ?> onmouseover="imgSrcChange(this, 'images/logo.png')" onmouseout="imgSrcChange(this, 'images/logoHover.png')" <?php } ?>></a>
 		<div id="search">
 			<form action="search.php" method="POST">
 				<input type="search" id="searchBox" onclick="enterSearch('<?php echo $searchDefault; ?>')" onblur="exitSearch('<?php echo $searchDefault; ?>')" value="<?php echo $searchDefault; ?>">

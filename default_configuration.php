@@ -25,4 +25,7 @@ $config_description = '';
 
 //Default url of the platform (ex: http://www.example.com/bugtracker)
 $config_defaultUrl = '';
+
+//If change logo on hover (true|false)
+$config_logoHover = true;
 ?>
