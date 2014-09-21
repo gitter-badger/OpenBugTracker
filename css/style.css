@@ -164,10 +164,37 @@ body {
 
 /* Footer */
 #footer {
+	border-top: 1px solid #E5E5E5;
 	background-color: #F5F5F5;
 	position: absolute;
 	width: 100%;
 	margin-top: 130px;
 	left: 0px;
 	height: 50px;
+}
+
+/* Center elements of footer on center */
+#footer .container * {
+	text-align: center;
+}
+
+/* Service info */
+#serviceInfo {
+	font-size: 14px;
+}
+
+/* OpenBugTracker info */
+#obtInfo {
+	font-size: 12px;
+	margin: 10px 0px;
+}
+
+/* Copyright links*/
+#copyright a {
+	color: #104E8B;
+}
+
+/* Copyright links color on hover */
+#copyright a:hover {
+	color: #60AFFE;
 }
