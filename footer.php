@@ -15,13 +15,13 @@
 	<div class="container">
 		<div id="serviceInfo">
 			<ul>
-				<li>Homepage</li> - 
-				<li>Terms of service</li> - 
-				<li>Contact</li> - 
-				<li>Status</li> - 
-				<li>Help</li> - 
-				<li>License</li> - 
-				<li>About</li>
+				<?php if($config_showFooterHome) { ?><li><a href="<?php echo $config_footerHome; ?>">Homepage</li></a> - <?php } ?>
+				<?php if($config_showFooterTerms) { ?><li><a href="termsofservice.php">Terms of service</a></li> - <?php } ?>
+				<li><a href="#">Contact</a></li> - 
+				<?php if($config_showFooterStatus) { ?><li><a href="<?php echo $config_footerStatus; ?>">Status</a></li> - <?php } ?>
+				<li><a href="#">Help</a></li> - 
+				<li><a href="#">License</a></li> - 
+				<li><a href="#">About</a></li>
 			</ul>
 		</div>
 		<div id="obtInfo">

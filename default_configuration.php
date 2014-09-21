@@ -28,4 +28,19 @@ $config_defaultUrl = '';
 
 //If change logo on hover (true|false)
 $config_logoHover = true;
+
+// If display home page link in footer (true|false)
+$config_showFooterHome = true;
+
+//Link to footer homepage
+$config_footerHome = '';
+
+// If display terms of service link in footer (true|false)
+$config_showFooterTerms = true;
+
+// If display status link in footer (true|false)
+$config_showFooterStatus = true;
+
+//Link to footer status
+$config_footerStatus = '';
 ?>
