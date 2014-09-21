@@ -1,6 +1,6 @@
 <?php
 /*
- * index.php
+ * dashboard.php
  * 
  * Copyright 2014 Hugo Rodrigues hugaomrodrigues<at>gmail<dot>com
  * 
@@ -18,32 +18,7 @@ if(!file_exists('configuration.php'))
 }
 else
 {
-include 'configuration.php';
-?>
-<!DOCTYPE html>
-<html>
-
-	<head>
-		<?php include 'common_head.php'; ?>
-	</head>
-
-	<body onload="load()">
-		<?php
-		include 'noJava.php';
-		include 'mainBar.php';
-		?>
-		<div id="pageHead">
-			<div class="container">
-			</div>
-		</div>
-		<div id="workspace">
-			<div class="container">
-			</div>
-		</div>
-		<?php include 'footer.php'; ?>
-	</body>
-
-</html>
-<?php
-}//configuration file
+	//Check if login is done - TO DO
+	header('Location: dashboard.php');
+}
 ?>
