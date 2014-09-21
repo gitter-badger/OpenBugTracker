@@ -10,6 +10,7 @@
 
 body {
 	min-width: 1000px; /* Minimum width of the page */
+	background-color: #F5F5F5;
 }
 
  /* Show warning when javascript is disable */
@@ -158,4 +159,15 @@ body {
 	height: auto;
 	position: relative;
 	top: 95px;
+	background-color: #FFF;
+}
+
+/* Footer */
+#footer {
+	background-color: #F5F5F5;
+	position: absolute;
+	width: 100%;
+	margin-top: 130px;
+	left: 0px;
+	height: 50px;
 }
