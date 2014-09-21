@@ -26,6 +26,11 @@ include 'configuration.php';
 		?>
 		<div id="pageHead">
 			<div class="container">
+				<span id="pageTitle">Welcome</span>
+				<div id="headControls">
+					<div class="headButton underSelected">News Feed</div>
+					<div class="headButton">Bugs</div>
+				</div>
 			</div>
 		</div>
 		<div id="workspace">

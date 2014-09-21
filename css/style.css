@@ -86,7 +86,7 @@ body {
 /* Search input */
 #search form input {
 	width: 250px;
-	color: gray;
+	color: #808080;
 	font-style: italic;
 	border-radius: 3px;
 	box-shadow: none;
@@ -154,6 +154,42 @@ body {
 	width: 100%;
 }
 
+/* Put page head elements center */
+#pageHead * {
+
+	line-height: 56px;
+}
+
+/* Title of the page */
+#pageTitle {
+	font-size: 20px;
+	display: block;
+	height: 60px;
+	float: left;
+}
+
+/* Main controls of the page */
+#headControls {
+	float: right;
+	height: 60px;
+}
+
+/* All headControls elements */
+#headControls * {
+	float: left;
+	height: 100%;
+}
+
+/* Style to apply on elements except the first */
+#headControls *:not(:first-child) {
+	margin-left: 30px;
+}
+
+/* When a button is hover */
+.headButton:hover {
+	color: #104E8B;
+}
+
 /* Workspace area */
 #workspace {
 	height: auto;
@@ -189,7 +225,7 @@ body {
 }
 
 /* Service info */
-#serviceInfo {
+#serviceInfo, #copyright {
 	font-size: 14px;
 }
 
@@ -197,4 +233,9 @@ body {
 #obtInfo {
 	font-size: 12px;
 	margin: 10px 0px;
+}
+
+/* Border under element */
+.underSelected {
+	border-bottom: 2px solid #104E8B;
 }
