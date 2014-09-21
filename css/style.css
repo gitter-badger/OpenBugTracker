@@ -42,27 +42,27 @@ body {
 	color: #FFF;
 }
 
-/* Where the controls of the mainbar are located */
+/* Used to create the place where all the elements of the page are */
 
-#header {
+.container {
 	width: 1000px;
 	margin: auto;
-	height: 41px;
+	height: 100%;
 }
 
 /* Remove ul dots */
 
-#header ul {
+.container ul {
 	list-style: none;
 }
 
 /* Display list in line*/
-#header ul li {
+.container ul li {
 	display: inline;
 }
 
-/* Remove a tag decoration n header */
-#header * a, #header a {
+/* Remove a tag decoration n container */
+.container * a, #container a {
 	text-decoration: none;
 	color: #FFF;
 }
@@ -140,4 +140,22 @@ body {
 #userControl span {
 	position: relative;
 	top: -5px;
+}
+
+/* Page menu */
+#pageHead {
+	height: 60px;
+	border-bottom: 1px solid #E5E5E5;
+	background-color: #F5F5F5;
+	position: absolute;
+	left: 0px;
+	top: 41px;
+	width: 100%;
+}
+
+/* Workspace area */
+#workspace {
+	height: auto;
+	position: relative;
+	top: 95px;
 }

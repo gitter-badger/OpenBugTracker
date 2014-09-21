@@ -13,7 +13,7 @@
 $searchDefault = 'Search';
 ?>
 <div id="mainBar">
-	<div id="header">
+	<div class="container">
 		<a href="<?php echo $config_baseUrl; ?>" id="logo"><img src="images/logo.png" <?php if($config_logoHover) { ?> onmouseover="imgSrcChange(this, 'images/logo.png')" onmouseout="imgSrcChange(this, 'images/logoHover.png')" <?php } ?>></a>
 		<div id="search">
 			<form action="search.php" method="POST">

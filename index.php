@@ -32,7 +32,14 @@ include 'configuration.php';
 		include 'noJava.php';
 		include 'mainBar.php';
 		?>
-		
+		<div id="pageHead">
+			<div class="container">
+			</div>
+		</div>
+		<div id="workspace">
+			<div class="container">
+			</div>
+		</div>
 	</body>
 
 </html>
