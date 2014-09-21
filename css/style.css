@@ -145,7 +145,7 @@ body {
 
 /* Page menu */
 #pageHead {
-	height: 60px;
+	height: 50px;
 	border-bottom: 1px solid #E5E5E5;
 	background-color: #F5F5F5;
 	position: absolute;
@@ -156,22 +156,21 @@ body {
 
 /* Put page head elements center */
 #pageHead * {
-
-	line-height: 56px;
+	line-height: 46px;
 }
 
 /* Title of the page */
 #pageTitle {
-	font-size: 20px;
+	font-size: 18px;
 	display: block;
-	height: 60px;
+	height: 100%;
 	float: left;
 }
 
 /* Main controls of the page */
 #headControls {
 	float: right;
-	height: 60px;
+	height: 100%;
 }
 
 /* All headControls elements */
