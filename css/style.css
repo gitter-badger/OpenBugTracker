@@ -234,7 +234,12 @@ body {
 	margin: 10px 0px;
 }
 
-/* Border under element */
+/* Select indicator under element */
 .underSelected {
 	border-bottom: 2px solid #104E8B;
+}
+
+/* Select indicator over element */
+.overSelected {
+	border-top: 2px solid #104E8B;
 }
