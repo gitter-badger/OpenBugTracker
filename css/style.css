@@ -48,7 +48,6 @@ body {
 	width: 1000px;
 	margin: auto;
 	height: 41px;
-	/*line-height: 39px;*/
 }
 
 /* Remove ul dots */
@@ -126,11 +125,6 @@ body {
 /* User menu icons size */
 #userMenu li img {
 	width: 20px;
-}
-
-/* Change cursor when private message and notification are hover */
-#privateMessage:hover, #notification:hover {
-	cursor: pointer;
 }
 
 /* Private message icon position */
