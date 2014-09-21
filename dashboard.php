@@ -11,7 +11,10 @@
  * User dashboard
  */
 include 'configuration.php';
+
+$dashboardToDisplay = $_GET['dashboard'];
 ?>
+
 <!DOCTYPE html>
 <html>
 
@@ -28,13 +31,29 @@ include 'configuration.php';
 			<div class="container">
 				<span id="pageTitle">Welcome</span>
 				<div id="headControls">
-					<div class="headButton underSelected">News Feed</div>
-					<div class="headButton">Bugs</div>
+					<div class="headButton<?php if($dashboardToDisplay == null || $dashboardToDisplay == 'news') echo ' underSelected'; ?>">News Feed</div>
+					<div class="headButton<?php if($dashboardToDisplay == 'bugs') echo ' underSelected'; ?>">Bugs</div>
 				</div>
 			</div>
 		</div>
 		<div id="workspace">
 			<div class="container">
+				<?php
+				if($dashboardToDisplay == null || $dashboardToDisplay == 'news')
+				{
+					?>
+					Lorem Ipsum 
+					<?php
+				}
+				else if($dashboardToDisplay == 'bugs')
+				{
+					?>
+					Lorem Ipsum 
+					<?php
+				}
+				else
+					header('Location: dashboard.php');
+				?>
 			</div>
 		</div>
 		<?php include 'footer.php'; ?>
