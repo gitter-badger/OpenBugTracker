@@ -20,9 +20,9 @@ What do I need to use OpenBugTracker?
 See in the [Wiki](https://github.com/Hugao/OpenBugTracker/wiki/Using-OpenBugTracker).
 
 
-And to install?
+And to build?
 -
-See in the [Wiki](https://github.com/Hugao/OpenBugTracker/wiki/Install-OpenBugTracker).
+See in the [Wiki](https://github.com/Hugao/OpenBugTracker/wiki/Build-OpenBugTracker).
 
 FAQ
 -
