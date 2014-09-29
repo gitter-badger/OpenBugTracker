@@ -192,20 +192,17 @@ body {
 /* Workspace area */
 #workspace {
 	height: auto;
-	position: relative;
-	top: 85px;
+	position: absolute;
+	top: 93px;
+	width: 100%;
 	background-color: #FFF;
+	left: 0px;
 }
 
 /* Footer */
 #footer {
 	border-top: 1px solid #E5E5E5;
 	background-color: #F5F5F5;
-	position: absolute;
-	width: 100%;
-	margin-top: 120px;
-	left: 0px;
-	height: 50px;
 }
 
 /* Center elements of footer on center */

@@ -55,8 +55,8 @@ $dashboardToDisplay = $_GET['dashboard'];
 					header('Location: dashboard.php');
 				?>
 			</div>
-		</div>
 		<?php include 'footer.php'; ?>
+		</div>
 	</body>
 
 </html>
