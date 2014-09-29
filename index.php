@@ -9,6 +9,7 @@
  * OpenBugTracker it's a Open Source bug tracker and it's under the MIT License.
  */
  
+//Checks if OpenBugTracker is installed and if not, checks for the installation directory
 if(!file_exists('configuration.php'))
 {
 	if(file_exists('install/'))

@@ -12,6 +12,7 @@
  */
 include 'configuration.php';
 
+//Used to set the dashboard view
 $dashboardToDisplay = $_GET['dashboard'];
 ?>
 
@@ -39,18 +40,21 @@ $dashboardToDisplay = $_GET['dashboard'];
 		<div id="workspace">
 			<div class="container">
 				<?php
+				//If the view is News
 				if($dashboardToDisplay == null || $dashboardToDisplay == 'news')
 				{
 					?>
 					Lorem Ipsum 
 					<?php
 				}
+				//If the view is bugs
 				else if($dashboardToDisplay == 'bugs')
 				{
 					?>
 					Lorem Ipsum 
 					<?php
 				}
+				//If the view is unknown loads the default view
 				else
 					header('Location: dashboard.php');
 				?>
