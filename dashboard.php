@@ -53,6 +53,7 @@ $dashboardToDisplay = $_GET['dashboard'];
 							News feed example
 						</div>
 					</div>
+					<hr class="newsSeparator">
 					<div class="news">
 						<div class="newsLogo">
 							<img src="">
@@ -62,6 +63,7 @@ $dashboardToDisplay = $_GET['dashboard'];
 							News feed example
 						</div>
 					</div>
+					<hr class="newsSeparator">
 					<div class="news">
 						<div class="newsLogo">
 							<img src="">

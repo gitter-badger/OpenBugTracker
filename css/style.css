@@ -247,11 +247,15 @@ body {
 	margin: 5px 0px 10px 0px;
 }
 
-/* Style to apply on elements except the first */
-.news:not(:first-child) {
-	border-top: 1px solid #E5E5E5;
+.news:hover {
+	background-color: #F5F5F5;
+	border-radius: 5px;
 }
 
+.newsSeparator {
+    border: 0;
+    border-top: 1px solid #E5E5E5;
+}
 
 /* Logo relative to the news */
 .newsLogo {
