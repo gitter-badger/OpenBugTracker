@@ -44,7 +44,33 @@ $dashboardToDisplay = $_GET['dashboard'];
 				if($dashboardToDisplay == null || $dashboardToDisplay == 'news')
 				{
 					?>
-					Lorem Ipsum 
+					<div class="news">
+						<div class="newsLogo">
+							<img src="">
+						</div>
+						<div class="newsContent">
+							<time datetime="PT1H15MIN">1 hour and 15 minutes</time><br>
+							News feed example
+						</div>
+					</div>
+					<div class="news">
+						<div class="newsLogo">
+							<img src="">
+						</div>
+						<div class="newsContent">
+							<time datetime="P2D">2 days</time><br>
+							News feed example
+						</div>
+					</div>
+					<div class="news">
+						<div class="newsLogo">
+							<img src="">
+						</div>
+						<div class="newsContent">
+							<time datetime="2014-09-30T01:29">30 of September of 2014 at 01:29</time><br>
+							News feed example
+						</div>
+					</div>
 					<?php
 				}
 				//If the view is bugs
