@@ -20,7 +20,10 @@ $dashboardToDisplay = $_GET['dashboard'];
 <html>
 
 	<head>
-		<?php include 'common_head.php'; ?>
+		<?php
+		if($dashboardToDisplay == 'bugs')
+			$title = 'Bugs';
+		include 'common_head.php'; ?>
 	</head>
 
 	<body onload="load()">

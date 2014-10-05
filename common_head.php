@@ -15,7 +15,7 @@
 ?>
 <meta charset="<?php echo $config_charset; ?>">
 <meta name="description" content="<?php echo $config_description; ?>">
-<title><?php echo $pageTitle; if($config_name == null) echo 'OpenBugTracker'; else { echo $config_name; if($config_showBugTracker) echo ' Bug Tracker'; }?></title>
+<title><?php echo $pageTitle; if($config_name == null) echo 'OpenBugTracker'; else { echo $config_name; if($config_showBugTracker) echo ' Bug Tracker'; if($title != null) echo ' - ' . $title; }?></title>
 
 <!-- Style for all pages -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
