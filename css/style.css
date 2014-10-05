@@ -13,6 +13,12 @@ body {
 	background-color: #F5F5F5;
 }
 
+/* Remove a tag decoration */
+a {
+	text-decoration: none;
+	color: #000;
+}
+
  /* Show warning when javascript is disable */
 #noJava {
 	font-size: 25px;
@@ -43,6 +49,10 @@ body {
 	color: #FFF;
 }
 
+/* Main bar links color */
+#mainBar a, #mainBar * a {
+	color: #FFF;
+}
 /* Used to create the place where all the elements of the page are */
 
 .container {
@@ -62,11 +72,7 @@ body {
 	display: inline;
 }
 
-/* Remove a tag decoration n container */
-.container * a, #container a {
-	text-decoration: none;
-	color: #FFF;
-}
+
 
 #logo {
 	max-height: 35px;
@@ -185,7 +191,7 @@ body {
 }
 
 /* When a button is hover */
-.headButton:hover {
+.headButton a:hover {
 	color: #104E8B;
 }
 

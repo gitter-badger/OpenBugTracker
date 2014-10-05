@@ -32,8 +32,8 @@ $dashboardToDisplay = $_GET['dashboard'];
 			<div class="container">
 				<span id="pageTitle">Welcome</span>
 				<div id="headControls">
-					<div class="headButton<?php if($dashboardToDisplay == null || $dashboardToDisplay == 'news') echo ' underSelected'; ?>">News Feed</div>
-					<div class="headButton<?php if($dashboardToDisplay == 'bugs') echo ' underSelected'; ?>">Bugs</div>
+					<div class="headButton<?php if($dashboardToDisplay == null || $dashboardToDisplay == 'news') echo ' underSelected'; ?>"><a href="dashboard.php">News Feed</a></div>
+					<div class="headButton<?php if($dashboardToDisplay == 'bugs') echo ' underSelected'; ?>"><a href="dashboard.php?dashboard=bugs">Bugs</a></div>
 				</div>
 			</div>
 		</div>
