@@ -247,24 +247,24 @@ a {
 	border-top: 2px solid #104E8B;
 }
 
-/* Where the each news are located */
-.news {
+/* Where the each list are located */
+.largeList {
 	height: 80px;
 	margin: 5px 0px 10px 0px;
 }
 
-.news:hover {
+.largeList:hover {
 	background-color: #F5F5F5;
 	border-radius: 5px;
 }
 
-.newsSeparator {
+.largeListSeparator {
     border: 0;
     border-top: 1px solid #E5E5E5;
 }
 
-/* Logo relative to the news */
-.newsLogo {
+/* Logo relative to the list */
+.largeListLogo {
 	border: 1px solid #E5E5E5;
 	border-radius: 5px;
 	height: 60px;
@@ -273,8 +273,8 @@ a {
 	float: left;
 }
 
-/* The news actual location */
-.newsContent {
+/* The list actual location */
+.largeListContent {
 	height: 60px;
 	margin: 10px 5px 0px 5px;
 	float: left;
@@ -282,7 +282,7 @@ a {
 }
 
 /* Set hour color and size */
-.newsContent time {
+.largeListContent time {
 	color: #BBB;
 	font-size: 10px;
 }

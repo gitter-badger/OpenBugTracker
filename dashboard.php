@@ -47,31 +47,31 @@ $dashboardToDisplay = $_GET['dashboard'];
 				if($dashboardToDisplay == null || $dashboardToDisplay == 'news')
 				{
 					?>
-					<div class="news">
-						<div class="newsLogo">
+					<div class="largeList">
+						<div class="largeListLogo">
 							<img src="">
 						</div>
-						<div class="newsContent">
+						<div class="largeListContent">
 							<time datetime="PT1H15MIN">1 hour and 15 minutes</time><br>
 							News feed example
 						</div>
 					</div>
-					<hr class="newsSeparator">
-					<div class="news">
-						<div class="newsLogo">
+					<hr class="largeListSeparator">
+					<div class="largeList">
+						<div class="largeListLogo">
 							<img src="">
 						</div>
-						<div class="newsContent">
+						<div class="largeListContent">
 							<time datetime="P2D">2 days</time><br>
 							News feed example
 						</div>
 					</div>
-					<hr class="newsSeparator">
-					<div class="news">
-						<div class="newsLogo">
+					<hr class="largeListSeparator">
+					<div class="largeList">
+						<div class="largeListLogo">
 							<img src="">
 						</div>
-						<div class="newsContent">
+						<div class="largeListContent">
 							<time datetime="2014-09-30T01:29">30 of September of 2014 at 01:29</time><br>
 							News feed example
 						</div>
