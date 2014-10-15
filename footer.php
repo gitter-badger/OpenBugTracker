@@ -13,6 +13,7 @@
 ?>
 <div id="footer">
 	<div class="container">
+		<?php if($config_devVersion != null) echo '<div>This is a ' . $config_devVersion . ' version of OpenBugTracker. Use at your own risk. See more in <a href="about.php#dev">about</a></div>'; ?>
 		<div id="serviceInfo">
 			<ul>
 				<?php if($config_showFooterHome) { ?><li><a href="<?php echo $config_footerHome; ?>">Homepage</li></a> - <?php } ?>
