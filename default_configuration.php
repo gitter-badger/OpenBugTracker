@@ -43,4 +43,7 @@ $config_showFooterStatus = true;
 
 //Link to footer status
 $config_footerStatus = '';
+
+// If the release is a nightly
+$config_nightly = true;
 ?>
