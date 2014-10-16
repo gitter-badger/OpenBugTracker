@@ -21,7 +21,9 @@ $dashboardToDisplay = $_GET['dashboard'];
 
 	<head>
 		<?php
-		if($dashboardToDisplay == 'bugs')
+		if($dashboardToDisplay == null && $config_name == null)
+			$title = 'Dashboard';
+		else if($dashboardToDisplay == 'bugs')
 			$title = 'Bugs';
 		include 'common_head.php'; ?>
 	</head>
