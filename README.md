@@ -6,7 +6,7 @@ With teams, you can optimize your work and make a faster development and bug fix
 
 Flavors of OpenBugTracker
 -
-| Flavor | Written in | Description | State | Build |
+| Flavor | Written in | Description | State | Build (Nightly) |
 | :-: | :-: | :-: | :-: | :-: |
 | <a href="#welcome-to-openbugtracker">OpenBugTracker</a> | HTML, CSS <br> JavaScript, PHP | The web version. | Active | [![Build Status](https://snap-ci.com/Hugao/OpenBugTracker/branch/nightly/build_image)](https://snap-ci.com/Hugao/OpenBugTracker/branch/nightly) |
 
