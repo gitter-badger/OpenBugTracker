@@ -11,7 +11,7 @@
  * Footer to display in all pages
  */
 ?>
-<div id="footer">
+<div id="footer" class="clearFloat">
 	<div class="container">
 		<?php if($config_nightly == true) echo '<div>This is a nightly release of OpenBugTracker. Use at your own risk. See more in <a href="about.php#dev">about</a></div>'; ?>
 		<div id="serviceInfo">

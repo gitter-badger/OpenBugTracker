@@ -286,3 +286,20 @@ a {
 	color: #BBB;
 	font-size: 10px;
 }
+
+/* Floats element to left */
+.left {
+	float: left;
+}
+
+
+/* Floats element to right */
+.right {
+	float: left;
+}
+
+
+/* Clears element float */
+.clearFloat {
+	clear: both;
+}
