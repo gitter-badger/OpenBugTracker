@@ -8,6 +8,26 @@
  * OpenBugTracker it's a Open Source bug tracker and it's under the MIT License.
  */
 
+@font-face {
+	font-family: Monoglyceride;
+	src: url('fonts/Monoglyceride.ttf');
+}
+
+@font-face {
+	font-family: MonoglycerideBold;
+	src: url('fonts/MonoglycerideBold.ttf');
+}
+
+@font-face {
+	font-family: MonoglycerideDemiBold;
+	src: url('fonts/MonoglycerideDemiBold.ttf');
+}
+
+@font-face {
+	font-family: MonoglycerideExtraBold;
+	src: url('fonts/MonoglycerideExtraBold.ttf');
+}
+
 body {
 	min-width: 1000px; /* Minimum width of the page */
 	background-color: #F5F5F5;
