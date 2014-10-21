@@ -302,7 +302,7 @@ a {
 
 /* Floats element to right */
 .right {
-	float: left;
+	float: right;
 }
 
 
