@@ -13,7 +13,12 @@
 ?>
 <div id="footer" class="clearFloat">
 	<div class="container">
-		<?php if($config_nightly == true) echo '<div>This is a nightly release of OpenBugTracker. Use at your own risk. See more in <a href="about.php#dev">about</a></div>'; ?>
+		<?php
+		// If the platform is a nightly build, shows the messagee
+		if($config_nightly == true) echo '<div>This is a nightly release of OpenBugTracker. Use at your own risk. See more in <a href="about.php#dev">about</a></div>';
+		?>
+
+		<!-- Footer links -->
 		<div id="serviceInfo">
 			<ul>
 				<?php if($config_showFooterHome) { ?><li><a href="<?php echo $config_footerHome; ?>">Homepage</li></a> - <?php } ?>
@@ -25,6 +30,8 @@
 				<li><a href="#">About</a></li>
 			</ul>
 		</div>
+
+		<!-- OpenBugTracker information and Copyright -->
 		<div id="obtInfo">
 			Provided by<br>
 			<a href="https://github.com/Hugao/OpenBugTracker" target="_blank"><img src="images/obt.png"></a>

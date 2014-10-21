@@ -8,10 +8,13 @@
  * OpenBugTracker it's a Open Source bug tracker and it's under the MIT License.
  */
 
+/* Style for all elements */
 * {
+	/* Default lettering */
 	font-family: sans-serif;
 }
 
+/* Style applied on the body */
 body {
 	min-width: 1000px; /* Minimum width of the page */
 	background-color: #F5F5F5;

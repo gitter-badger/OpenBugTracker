@@ -10,6 +10,8 @@
  *
  * User dashboard
  */
+
+// Include plataforms configuration
 include 'configuration.php';
 
 //Used to set the dashboard view
@@ -21,22 +23,34 @@ else
 
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<?php
+
+		/*
+		 * Set the title of the page. Null value for default
+		 * News feed -> <platform title>
+		 * Bugs -> <lataform title> Bugs
+		 */
 		$title = null;
 		if($dashboardToDisplay == null && $config_name == null)
 			$title = 'Dashboard';
 		else if($dashboardToDisplay == 'bugs')
 			$title = 'Bugs';
+
+		// Include common head values for all pages
 		include 'common_head.php'; ?>
 	</head>
 
 	<body onload="load()">
 		<?php
+		// Include warning to enable javascript, if it's disabled.
 		include 'noJava.php';
+
+		// Include mainbar of the plataform
 		include 'mainBar.php';
 		?>
+
+		<!-- Page head off the page -->
 		<div id="pageHead">
 			<div class="container">
 				<span id="pageTitle">Welcome</span>
@@ -46,6 +60,8 @@ else
 				</div>
 			</div>
 		</div>
+
+		<!-- Working area -->
 		<div id="workspace">
 			<div class="container">
 				<?php
@@ -96,7 +112,10 @@ else
 					header('Location: dashboard.php');
 				?>
 			</div>
-		<?php include 'footer.php'; ?>
+		<?php
+		// Include plataform footer
+		include 'footer.php';
+		?>
 		</div>
 	</body>
 
