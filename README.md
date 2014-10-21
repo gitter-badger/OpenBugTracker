@@ -10,15 +10,6 @@ Flavors of OpenBugTracker
 | :-: | :-: | :-: | :-: | :-: |
 | <a href="#welcome-to-openbugtracker">OpenBugTracker</a> | HTML, CSS <br> JavaScript, PHP | The web version. | Active | [![Build Status](https://snap-ci.com/Hugao/OpenBugTracker/branch/nightly/build_image)](https://snap-ci.com/Hugao/OpenBugTracker/branch/nightly) |
 
-What do I need to use OpenBugTracker?
+Check the wiki
 -
-See in the [Wiki](https://github.com/Hugao/OpenBugTracker/wiki/Using-OpenBugTracker).
-
-
-And to build?
--
-See in the [Wiki](https://github.com/Hugao/OpenBugTracker/wiki/Build-OpenBugTracker).
-
-FAQ
--
-You can see FAQ in the [Wiki](https://github.com/Hugao/OpenBugTracker/wiki/FAQ).
+Check the [Wiki](https://github.com/Hugao/OpenBugTracker/wiki/) for all the information about OpenBugTracker.
