@@ -13,7 +13,10 @@
 include 'configuration.php';
 
 //Used to set the dashboard view
-$dashboardToDisplay = $_GET['dashboard'];
+if(isset($_GET['dashboard']))
+	$dashboardToDisplay = $_GET['dashboard'];
+else
+	$dashboardToDisplay = null;
 ?>
 
 <!DOCTYPE html>
