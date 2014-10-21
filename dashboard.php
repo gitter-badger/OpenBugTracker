@@ -24,6 +24,7 @@ else
 
 	<head>
 		<?php
+		$title = null;
 		if($dashboardToDisplay == null && $config_name == null)
 			$title = 'Dashboard';
 		else if($dashboardToDisplay == 'bugs')
