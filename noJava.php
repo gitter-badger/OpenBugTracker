@@ -2,7 +2,7 @@
 /*
  * noJava.php
  * 
- * Copyright 2014 Hugo Rodrigues hugaomrodrigues<at>gmail<dot>com
+ * Copyright 2014 Hugo Rodrigues hugorodrigues.developer<at>outlook<dot>com
  * 
  * This file is part of OpenBugTracker.
  * 
