@@ -26,6 +26,12 @@ a {
 	color: #000;
 }
 
+/* Set hour color and size for time tag and class smallInfo */
+time, .smallInfo {
+	color: #BBB;
+	font-size: 10px;
+}
+
  /* Show warning when javascript is disable */
 #noJava {
 	font-size: 25px;
@@ -255,6 +261,73 @@ a {
 }
 
 /* Where the each list are located */
+.list {
+	height: 54px;
+	margin: 5px 0px 10px 0px;
+}
+
+.list:hover {
+	background-color: #F5F5F5;
+	color: #000;
+	border-radius: 5px;
+}
+
+.listSeparator {
+    border: 0;
+    border-top: 1px solid #E5E5E5;
+}
+
+/* Logo relative to the list */
+.listLogo {
+	border: 1px solid #E5E5E5;
+	border-radius: 5px;
+	height: 40px;
+	width: 40px;
+	margin: 6px 0px 0px 5px;
+	float: left;
+}
+
+/* The list actual location */
+.listContent {
+	margin: 6px 5px 0px 5px;
+	float: left;
+}
+
+.selectedList {
+	background-color: #104E8B;
+	color: #FFF;
+	border-radius: 5px;
+}
+
+/* Where the each list are located */
+.smallList {
+	height: 28px;
+	margin: 5px 0px 0px 0px;
+}
+
+.smallList:hover {
+	background-color: #F5F5F5;
+	color: #000;
+	border-radius: 5px;
+}
+
+/* Logo relative to the list */
+.smallListLogo {
+	border: 1px solid #E5E5E5;
+	border-radius: 5px;
+	height: 20px;
+	width: 20px;
+	margin: 3px 0px 0px 5px;
+	float: left;
+}
+
+/* The list actual location */
+.smallListContent {
+	margin: 5px 5px 0px 5px;
+	float: left;
+}
+
+/* Where the each list are located */
 .largeList {
 	height: 80px;
 	margin: 5px 0px 10px 0px;
@@ -262,12 +335,8 @@ a {
 
 .largeList:hover {
 	background-color: #F5F5F5;
+	color: #000;
 	border-radius: 5px;
-}
-
-.largeListSeparator {
-    border: 0;
-    border-top: 1px solid #E5E5E5;
 }
 
 /* Logo relative to the list */
@@ -282,16 +351,8 @@ a {
 
 /* The list actual location */
 .largeListContent {
-	height: 60px;
 	margin: 10px 5px 0px 5px;
 	float: left;
-	width: 92%;
-}
-
-/* Set hour color and size */
-.largeListContent time {
-	color: #BBB;
-	font-size: 10px;
 }
 
 /* Floats element to left */
@@ -309,4 +370,14 @@ a {
 /* Clears element float */
 .clearFloat {
 	clear: both;
+}
+
+/* Small pane */
+.smallPane {
+	width: 18%;
+}
+
+/* Large pane */
+.largePane {
+	width: 77%;
 }

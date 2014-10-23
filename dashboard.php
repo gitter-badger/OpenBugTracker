@@ -78,7 +78,7 @@ else
 							News feed example
 						</div>
 					</div>
-					<hr class="largeListSeparator">
+					<hr class="listSeparator">
 					<div class="largeList">
 						<div class="largeListLogo">
 							<img src="">
@@ -88,7 +88,7 @@ else
 							News feed example
 						</div>
 					</div>
-					<hr class="largeListSeparator">
+					<hr class="listSeparator">
 					<div class="largeList">
 						<div class="largeListLogo">
 							<img src="">
@@ -104,7 +104,42 @@ else
 				else if($dashboardToDisplay == 'bugs')
 				{
 					?>
-					Lorem Ipsum 
+					<!-- Projects list -->
+					<div class="left smallPane">
+						<div class="smallList selectedList">
+							<div class="smallListContent">
+								All Projects
+							</div>
+						</div>
+						<div class="smallList">
+							<div class="smallListContent">
+								Project example
+							</div>
+						</div>
+					</div>
+
+					<!-- Bug list -->
+					<div class="left largePane">
+						<div class="list">
+							<div class="listLogo">
+								<img src="">
+							</div>
+							<div class="listContent">
+								<span class="smallInfo">Project</span><br>
+								Bug example
+							</div>
+						</div>
+						<hr class="listSeparator">
+						<div class="list">
+							<div class="listLogo">
+								<img src="">
+							</div>
+							<div class="listContent">
+								<span class="smallInfo">Project</span><br>
+								Bug example
+							</div>
+						</div>
+					</div>
 					<?php
 				}
 				//If the view is unknown loads the default view
