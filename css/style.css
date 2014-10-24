@@ -222,6 +222,7 @@ time, .smallInfo {
 #footer {
 	border-top: 1px solid #E5E5E5;
 	background-color: #F5F5F5;
+	padding: 15px 0px 0px 0px;
 }
 
 /* Center elements of footer on center */
@@ -270,6 +271,7 @@ time, .smallInfo {
 	background-color: #F5F5F5;
 	color: #000;
 	border-radius: 5px;
+	cursor: pointer;
 }
 
 .listSeparator {
@@ -309,6 +311,7 @@ time, .smallInfo {
 	background-color: #F5F5F5;
 	color: #000;
 	border-radius: 5px;
+	cursor: pointer;
 }
 
 /* Logo relative to the list */
@@ -337,6 +340,7 @@ time, .smallInfo {
 	background-color: #F5F5F5;
 	color: #000;
 	border-radius: 5px;
+	cursor: pointer;
 }
 
 /* Logo relative to the list */
