@@ -12,6 +12,12 @@
  * Meta data
  */
 
+if(!isset($theme))
+	if($config_defaultTheme == null)
+		$theme = 'blue';
+	else
+		$theme = $config_defaultTheme;
+
 ?>
 <!-- Set Meta data according to contents in configuration.php -->
 <meta charset="<?php echo $config_charset; ?>">
@@ -22,7 +28,7 @@
 
 <!-- Style for all pages -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/themes/blue.css">
+<link rel="stylesheet" type="text/css" href="css/themes/<?php echo $theme; ?>.css">
 
 <!-- Javascript for all pages -->
 <script type="text/javascript" src="javascript/script.js"></script>

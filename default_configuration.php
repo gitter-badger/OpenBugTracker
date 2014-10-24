@@ -23,6 +23,9 @@ $config_charset = '';
 //Description of the platform
 $config_description = '';
 
+//Default theme to apply
+$config_defaultTheme = '';
+
 //Default url of the platform (ex: http://www.example.com/bugtracker)
 $config_baseUrl = '';
 
