@@ -17,18 +17,15 @@
 /* Style applied on the body */
 body {
 	min-width: 1000px; /* Minimum width of the page */
-	background-color: #F5F5F5;
 }
 
 /* Remove a tag decoration */
 a {
 	text-decoration: none;
-	color: #000;
 }
 
 /* Set hour color and size for time tag and class smallInfo */
 time, .smallInfo {
-	color: #BBB;
 	font-size: 10px;
 }
 
@@ -37,11 +34,9 @@ time, .smallInfo {
 	font-size: 25px;
 	top: 0px;
 	left: 0px;
-	color: #fff;
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	background-color: #000000;
 	opacity: 0.7;
 	vertical-align: middle;
 	text-align: center;
@@ -56,16 +51,10 @@ time, .smallInfo {
 	top: 0px;
 	width: 100%;
 	height: 41px;
-	background-color: #104E8B;
 	font-size: 13px;
 	font-weight: bold;
-	color: #FFF;
 }
 
-/* Main bar links color */
-#mainBar a, #mainBar * a {
-	color: #FFF;
-}
 /* Used to create the place where all the elements of the page are */
 
 .container {
@@ -105,7 +94,6 @@ time, .smallInfo {
 /* Search input */
 #search form input {
 	width: 250px;
-	color: #808080;
 	font-style: italic;
 	border-radius: 3px;
 	box-shadow: none;
@@ -123,11 +111,6 @@ time, .smallInfo {
 /* Main menu inner li */
 #mainMenu li {
 	margin-right: 10px;
-}
-
-/* Text color of main menu elements and user control when hover */
-#mainMenu li a:hover, #userControl a:hover  {
-	color: #60AFFE;
 }
 
 /* User menu */
@@ -165,8 +148,6 @@ time, .smallInfo {
 /* Page menu */
 #pageHead {
 	height: 50px;
-	border-bottom: 1px solid #E5E5E5;
-	background-color: #F5F5F5;
 	position: absolute;
 	left: 0px;
 	top: 41px;
@@ -203,41 +184,23 @@ time, .smallInfo {
 	margin-left: 30px;
 }
 
-/* When a button is hover */
-.headButton a:hover {
-	color: #104E8B;
-}
-
 /* Workspace area */
 #workspace {
 	height: auto;
 	position: absolute;
 	top: 93px;
 	width: 100%;
-	background-color: #FFF;
 	left: 0px;
 }
 
 /* Footer */
 #footer {
-	border-top: 1px solid #E5E5E5;
-	background-color: #F5F5F5;
 	padding: 15px 0px 0px 0px;
 }
 
 /* Center elements of footer on center */
 #footer .container * {
 	text-align: center;
-}
-
-/* Copyright links*/
-#footer * a {
-	color: #104E8B;
-}
-
-/* Copyright links color on hover */
-#footer * a:hover {
-	color: #60AFFE;
 }
 
 /* Service info */
@@ -251,16 +214,6 @@ time, .smallInfo {
 	margin: 10px 0px;
 }
 
-/* Select indicator under element */
-.underSelected {
-	border-bottom: 2px solid #104E8B;
-}
-
-/* Select indicator over element */
-.overSelected {
-	border-top: 2px solid #104E8B;
-}
-
 /* Where the each list are located */
 .list {
 	height: 54px;
@@ -268,20 +221,16 @@ time, .smallInfo {
 }
 
 .list:hover {
-	background-color: #F5F5F5;
-	color: #000;
 	border-radius: 5px;
 	cursor: pointer;
 }
 
 .listSeparator {
     border: 0;
-    border-top: 1px solid #E5E5E5;
 }
 
 /* Logo relative to the list */
 .listLogo {
-	border: 1px solid #E5E5E5;
 	border-radius: 5px;
 	height: 40px;
 	width: 40px;
@@ -296,8 +245,6 @@ time, .smallInfo {
 }
 
 .selectedList {
-	background-color: #104E8B;
-	color: #FFF;
 	border-radius: 5px;
 }
 
@@ -308,15 +255,12 @@ time, .smallInfo {
 }
 
 .smallList:hover {
-	background-color: #F5F5F5;
-	color: #000;
 	border-radius: 5px;
 	cursor: pointer;
 }
 
 /* Logo relative to the list */
 .smallListLogo {
-	border: 1px solid #E5E5E5;
 	border-radius: 5px;
 	height: 20px;
 	width: 20px;
@@ -337,15 +281,12 @@ time, .smallInfo {
 }
 
 .largeList:hover {
-	background-color: #F5F5F5;
-	color: #000;
 	border-radius: 5px;
 	cursor: pointer;
 }
 
 /* Logo relative to the list */
 .largeListLogo {
-	border: 1px solid #E5E5E5;
 	border-radius: 5px;
 	height: 60px;
 	width: 60px;

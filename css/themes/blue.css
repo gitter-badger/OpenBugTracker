@@ -1,0 +1,143 @@
+/*
+ * style.css
+ * 
+ * Copyright 2014 Hugo Rodrigues hugorodrigues.developer<at>outlook<dot>com
+ * 
+ * This file is part of OpenBugTracker.
+ * 
+ * OpenBugTracker it's a Open Source bug tracker and it's under the MIT License.
+ */
+
+/* Style for all elements */
+
+/* Style applied on the body */
+body {
+	background-color: #F5F5F5;
+}
+
+/* Remove a tag decoration */
+a {
+	color: #000;
+}
+
+/* Set hour color and size for time tag and class smallInfo */
+time, .smallInfo {
+	color: #BBB;
+}
+
+ /* Show warning when javascript is disable */
+#noJava {
+	color: #fff;
+	background-color: #000000;
+}
+
+/* Main bar */
+
+#mainBar {
+	background-color: #104E8B;
+	color: #FFF;
+}
+
+/* Main bar links color */
+#mainBar a, #mainBar * a {
+	color: #FFF;
+}
+
+#logo {
+	max-height: 35px;
+	min-height: 35px;
+	width: auto;
+	margin-top: 3px;
+	float: left;
+}
+
+/* Search input */
+#search form input {
+	color: #808080;
+}
+
+/* Text color of main menu elements and user control when hover */
+#mainMenu li a:hover, #userControl a:hover  {
+	color: #60AFFE;
+}
+
+/* Page menu */
+#pageHead {
+	border-bottom: 1px solid #E5E5E5;
+	background-color: #F5F5F5;
+}
+
+/* When a button is hover */
+.headButton a:hover {
+	color: #104E8B;
+}
+
+/* Workspace area */
+#workspace {
+	background-color: #FFF;
+}
+
+/* Footer */
+#footer {
+	border-top: 1px solid #E5E5E5;
+	background-color: #F5F5F5;
+}
+
+/* Copyright links*/
+#footer * a {
+	color: #104E8B;
+}
+
+/* Copyright links color on hover */
+#footer * a:hover {
+	color: #60AFFE;
+}
+
+/* Select indicator under element */
+.underSelected {
+	border-bottom: 2px solid #104E8B;
+}
+
+/* Select indicator over element */
+.overSelected {
+	border-top: 2px solid #104E8B;
+}
+
+.list:hover {
+	background-color: #F5F5F5;
+	color: #000;
+}
+
+.listSeparator {
+    border-top: 1px solid #E5E5E5;
+}
+
+/* Logo relative to the list */
+.listLogo {
+	border: 1px solid #E5E5E5;
+}
+
+.selectedList {
+	background-color: #104E8B;
+	color: #FFF;
+}
+
+.smallList:hover {
+	background-color: #F5F5F5;
+	color: #000;
+}
+
+/* Logo relative to the list */
+.smallListLogo {
+	border: 1px solid #E5E5E5;
+}
+
+.largeList:hover {
+	background-color: #F5F5F5;
+	color: #000;
+}
+
+/* Logo relative to the list */
+.largeListLogo {
+	border: 1px solid #E5E5E5;
+}

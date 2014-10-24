@@ -22,6 +22,7 @@
 
 <!-- Style for all pages -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/themes/blue.css">
 
 <!-- Javascript for all pages -->
 <script type="text/javascript" src="javascript/script.js"></script>
