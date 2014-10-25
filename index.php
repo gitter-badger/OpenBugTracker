@@ -1,6 +1,6 @@
 <?php
 /*
- * dashboard.php
+ * index.php
  * 
  * Copyright 2014 Hugo Rodrigues hugorodrigues.developer<at>outlook<dot>com
  * 
@@ -20,6 +20,6 @@ if(!file_exists('configuration.php'))
 else
 {
 	//Check if login is done - TO DO
-	header('Location: dashboard.php');
+	header('Location: home.php');
 }
 ?>
