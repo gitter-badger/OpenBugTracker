@@ -223,7 +223,6 @@ time, .smallInfo {
 
 .list:hover {
 	border-radius: 5px;
-	cursor: pointer;
 }
 
 .listSeparator {
@@ -257,7 +256,6 @@ time, .smallInfo {
 
 .smallList:hover {
 	border-radius: 5px;
-	cursor: pointer;
 }
 
 /* Logo relative to the list */
@@ -283,7 +281,6 @@ time, .smallInfo {
 
 .largeList:hover {
 	border-radius: 5px;
-	cursor: pointer;
 }
 
 /* Logo relative to the list */

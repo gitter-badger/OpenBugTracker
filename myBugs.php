@@ -1,6 +1,6 @@
 <?php
 /*
- * dashboard.php
+ * myBugs.php
  * 
  * Copyright 2014 Hugo Rodrigues hugorodrigues.developer<at>outlook<dot>com
  * 
@@ -8,17 +8,23 @@
  * 
  * OpenBugTracker it's a Open Source bug tracker and it's under the MIT License.
  *
- * User dashboard
+ * Display the user their bugs.(Reported, assigned, monitored)
  */
 
 // Include plataforms configuration
 include 'configuration.php';
 
-//Used to set the dashboard view
-if(isset($_GET['dashboard']))
-	$dashboardToDisplay = $_GET['dashboard'];
+//Used to set the bug view
+if(isset($_GET['bugView']))
+	$bugView = $_GET['bugView'];
 else
-	$dashboardToDisplay = null;
+	$bugView = null;
+
+//Used to set the project to view
+if(isset($_GET['projectView']))
+	$projectView = $_GET['projectView'];
+else
+	$projectView = null;
 ?>
 
 <!DOCTYPE html>
@@ -31,11 +37,7 @@ else
 		 * News feed -> <platform title>
 		 * Bugs -> <lataform title> Bugs
 		 */
-		$title = null;
-		if($dashboardToDisplay == null && $config_name == null)
-			$title = 'Dashboard';
-		else if($dashboardToDisplay == 'bugs')
-			$title = 'Bugs';
+		$title = 'My Bugs';
 
 		// Include common head values for all pages
 		include 'common_head.php'; ?>
@@ -55,10 +57,10 @@ else
 			<div class="container">
 				<span id="pageTitle">My bugs</span>
 				<div id="headControls">
-					<div class="headButton<?php if($dashboardToDisplay == null || $dashboardToDisplay == 'news') echo ' underSelected'; ?>"><a href="dashboard.php">All</a></div>
-					<div class="headButton<?php if($dashboardToDisplay == 'bugs') echo ' underSelected'; ?>"><a href="dashboard.php?dashboard=bugs">Assigned to me</a></div>
-					<div class="headButton<?php if($dashboardToDisplay == 'bugs') echo ' underSelected'; ?>"><a href="dashboard.php?dashboard=bugs">Reported by me</a></div>
-					<div class="headButton<?php if($dashboardToDisplay == 'bugs') echo ' underSelected'; ?>"><a href="dashboard.php?dashboard=bugs">Monitored by me</a></div>
+					<div class="headButton<?php if($bugView == null) echo ' underSelected'; ?>"><a href="mybugs.php<?php if($projectView != null) echo '?projectView=' . $projectView; ?>">All</a></div>
+					<div class="headButton<?php if($bugView == 'assigned') echo ' underSelected'; ?>"><a href="mybugs.php?bugView=assigned<?php if($projectView != null) echo '&projectView=' . $projectView; ?>">Assigned to me</a></div>
+					<div class="headButton<?php if($bugView == 'reported') echo ' underSelected'; ?>"><a href="mybugs.php?bugView=reported<?php if($projectView != null) echo '&projectView=' . $projectView; ?>">Reported by me</a></div>
+					<div class="headButton<?php if($bugView == 'monitored') echo ' underSelected'; ?>"><a href="mybugs.php?bugView=monitored<?php if($projectView != null) echo '&projectView=' . $projectView; ?>">Monitored by me</a></div>
 				</div>
 			</div>
 		</div>
@@ -68,16 +70,20 @@ else
 			<div class="container">
 				<!-- Projects list -->
 				<div class="left smallPane">
-					<div class="smallList selectedList">
-						<div class="smallListContent">
-							All Projects
+					<a href="mybugs.php<?php if($bugView != null) echo '?bugView=' . $bugView; ?>">
+						<div class="smallList <?php if($projectView == null) echo 'selectedList'; ?>">
+								<div class="smallListContent">
+									All Projects
+								</div>
 						</div>
-					</div>
-					<div class="smallList">
-						<div class="smallListContent">
-							Project example
+					</a>
+					<a href="mybugs.php?projectView=1<?php if($bugView != null) echo '&bugView=' . $bugView; ?>">
+						<div class="smallList <?php if($projectView == 1) echo 'selectedList'; ?>">
+								<div class="smallListContent">
+									Project 1
+								</div>
 						</div>
-					</div>
+					</a>
 				</div>
 					<!-- Bug list -->
 				<div class="left largePane">
