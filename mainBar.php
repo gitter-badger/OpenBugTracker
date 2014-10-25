@@ -22,7 +22,7 @@ $searchDefault = 'Search';
 			<!-- Platform main menu -->
 			<ul id="mainMenu">
 				<li><a href="projects.php">Projects</a></li>
-				<li><a href="hotBugs.php">Hot bugs</a></li>
+				<li><a href="myBugs.php">My Bugs</a></li>
 			</ul>
 		</div>
 		<div class="right">
