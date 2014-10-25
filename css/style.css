@@ -115,8 +115,9 @@ time, .smallInfo {
 
 /* User menu */
 #userMenu {
-	float: right;
+	float: left;
 	margin-top: auto;
+	padding: 0px;
 }
 
 /* Spacing between elements */

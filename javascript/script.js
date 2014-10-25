@@ -34,7 +34,6 @@ function enterSearch(searchDefault)
 		if (search.value == searchDefault)
 		{
 			search.value = '';
-			search.style.color = '#000';
 			search.style.fontStyle = 'normal';
 		}
 	}
@@ -50,7 +49,6 @@ function exitSearch(searchDefault)
 		var search = document.getElementById('searchBox');
 		if(search.value == '')
 		{
-			search.style.color = 'gray';
 			search.style.fontStyle = 'italic';
 			search.value = searchDefault;
 		}
