@@ -53,7 +53,7 @@ time, .smallInfo {
 
 /* Search input */
 #search form input {
-	color: #FFF;
+	color: rgba(255,255,255,0.6);
 	background-color: rgba(0,0,0,0.2)
 }
 
