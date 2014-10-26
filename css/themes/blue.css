@@ -12,43 +12,35 @@
 
 /* Style applied on the body */
 body {
-	background-color: #F5F5F5;
+	background-color: rgba(245, 245, 245, 1);
 }
 
 /* Remove a tag decoration */
 a {
-	color: #000;
+	color: rgba(0, 0, 0, 1);
 }
 
 /* Set hour color and size for time tag and class smallInfo */
 time, .smallInfo {
-	color: #BBB;
+	color: rgba(187, 187, 187, 1);
 }
 
  /* Show warning when javascript is disable */
 #noJava {
-	color: #fff;
-	background-color: #000000;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(0, 0, 0, 1);
 }
 
 /* Main bar */
 
 #mainBar {
-	background-color: #104E8B;
+	background-color: rgba(16, 78, 139, 1);
 	color: #FFF;
 }
 
 /* Main bar links color */
 #mainBar a, #mainBar * a {
-	color: #FFF;
-}
-
-#logo {
-	max-height: 35px;
-	min-height: 35px;
-	width: auto;
-	margin-top: 3px;
-	float: left;
+	color: rgba(255, 255, 255, 1);
 }
 
 /* Search input */
@@ -57,88 +49,92 @@ time, .smallInfo {
 	background-color: rgba(0,0,0,0.2)
 }
 
+#search form input:hover {
+	color: rgba(255, 255, 255, 1);
+}
+
 /* Text color of main menu elements and user control when hover */
 #mainMenu li a:hover, #userControl a:hover  {
-	color: #60AFFE;
+	color: rgba(96, 175, 254, 1);
 }
 
 /* Page menu */
 #pageHead {
-	border-bottom: 1px solid #E5E5E5;
-	background-color: #F5F5F5;
+	border-bottom: 1px solid rgba(229, 229, 229, 1);
+	background-color: rgba(245, 245, 245, 1);
 }
 
 /* When a button is hover */
 .headButton a:hover {
-	color: #104E8B;
+	color: rgba(16, 78, 139, 1);
 }
 
 /* Workspace area */
 #workspace {
-	background-color: #FFF;
+	background-color: rgba(255, 255, 255, 1);
 }
 
 /* Footer */
 #footer {
-	border-top: 1px solid #E5E5E5;
-	background-color: #F5F5F5;
+	border-top: 1px solid: rgba(229, 229, 229, 1);
+	background-color: rgba(245, 245, 245, 1);
 }
 
 /* Copyright links*/
 #footer * a {
-	color: #104E8B;
+	color: rgba(16, 78, 139, 1);
 }
 
 /* Copyright links color on hover */
 #footer * a:hover {
-	color: #60AFFE;
+	color: rgba(96, 175, 254, 1);
 }
 
 /* Select indicator under element */
 .underSelected {
-	border-bottom: 2px solid #104E8B;
+	border-bottom: 2px solid rgba(16, 78, 139, 1);
 }
 
 /* Select indicator over element */
 .overSelected {
-	border-top: 2px solid #104E8B;
+	border-top: 2px solid rgba(16, 78, 139, 1);
 }
 
 .list:hover {
-	background-color: #F5F5F5;
-	color: #000;
+	background-color: rgba(245, 245, 245, 1);
+	color: rgba(245, 245, 245, 1);
 }
 
 .listSeparator {
-    border-top: 1px solid #E5E5E5;
+    border-top: 1px solid rgba(229, 229, 229, 1);
 }
 
 /* Logo relative to the list */
 .listLogo {
-	border: 1px solid #E5E5E5;
+	border: 1px solid rgba(229, 229, 229, 1);
 }
 
 .selectedList {
-	background-color: #104E8B;
-	color: #FFF;
+	background-color: rgba(16, 78, 139, 1);
+	color: rgba(255, 255, 255, 1);
 }
 
 .smallList:hover {
-	background-color: #F5F5F5;
-	color: #000;
+	background-color: rgba(245, 245, 245, 1);
+	color: rgba(0, 0, 0, 1);
 }
 
 /* Logo relative to the list */
 .smallListLogo {
-	border: 1px solid #E5E5E5;
+	border: 1px solid rgba(229, 229, 229, 1);
 }
 
 .largeList:hover {
-	background-color: #F5F5F5;
+	background-color: rgba(245, 245, 245, 1);
 	color: #000;
 }
 
 /* Logo relative to the list */
 .largeListLogo {
-	border: 1px solid #E5E5E5;
+	border: 1px solid rgba(229, 229, 229, 1);
 }
