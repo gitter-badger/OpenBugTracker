@@ -28,6 +28,7 @@ if(!isset($theme))
 
 <!-- Style for all pages -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/transitions.css">
 <link rel="stylesheet" type="text/css" href="css/themes/<?php echo $theme; ?>.css">
 
 <!-- Javascript for all pages -->

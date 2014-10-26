@@ -1,0 +1,21 @@
+/*
+ * transitions.css
+ * 
+ * Copyright 2014 Hugo Rodrigues hugorodrigues.developer<at>outlook<dot>com
+ * 
+ * This file is part of OpenBugTracker.
+ * 
+ * OpenBugTracker it's a Open Source bug tracker and it's under the MIT License.
+ */
+
+/* Main menu */
+#mainMenu li a, #userControl a {
+	-webkit-transition: opacity 0.2s;;
+	transition: color 0.2s;
+}
+
+/* User menu icons and logo */
+#logo, #privateMessage, #notification, #logOut {
+	-webkit-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+}

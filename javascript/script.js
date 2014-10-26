@@ -15,14 +15,6 @@ function load () {
 	pageLoaded = true;
 }
 
-//Change img src
-function imgSrcChange (element, image) {
-	if(!pageLoaded)
-		return;
-	else
-		element.setAttribute('src', image);
-}
-
 //When user enters in searchbox
 function enterSearch(searchDefault)
 {

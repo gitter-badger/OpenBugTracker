@@ -18,7 +18,7 @@ $searchDefault = 'Search';
 	<div class="container">
 		<div class="left">
 			<!-- Platform logo -->
-			<a href="<?php echo $config_baseUrl; ?>" id="logo"><img src="images/logo.png" <?php if($config_logoHover) { ?> onmouseover="imgSrcChange(this, 'images/logo.png')" onmouseout="imgSrcChange(this, 'images/logoHover.png')" <?php } ?>></a>
+			<a href="<?php echo $config_baseUrl; ?>" id="logo"><img src="images/logo.png"></a>
 			<!-- Platform main menu -->
 			<ul id="mainMenu">
 				<li><a href="projects.php">Projects</a></li>
@@ -34,10 +34,10 @@ $searchDefault = 'Search';
 			</div>
 			<!-- Platform user menu, is where controls relative to the user are displayed -->
 			<ul id="userMenu">
-				<li href="#" id="privateMessage" title="Private Messages"><a href="#"><img src="images/resources/icons/message.png" onmouseover="imgSrcChange(this, 'images/resources/icons/message_hover.png')" onmouseout="imgSrcChange(this, 'images/resources/icons/message.png')"></a></li>
-				<li href="#" id="notification" title="You don't have new notifications"><a href="#"><img src="images/resources/icons/notifications.png" onmouseover="imgSrcChange(this, 'images/resources/icons/notifications_hover.png')" onmouseout="imgSrcChange(this, 'images/resources/icons/notifications.png')"></a></li>
+				<li href="#" id="privateMessage" title="Private Messages"><a href="#"><img src="images/resources/icons/message.png"></a></li>
+				<li href="#" id="notification" title="You don't have new notifications"><a href="#"><img src="images/resources/icons/notifications.png"></a></li>
 				<li href="#" id="userControl"><a href="#"><img src="images/resources/icons/guest.png"> <span>Guest</span></a></li>
-				<li href="#" id="logOut" title="Logout"><a href="#"><img src="images/resources/icons/logout.png" onmouseover="imgSrcChange(this, 'images/resources/icons/logout_hover.png')" onmouseout="imgSrcChange(this, 'images/resources/icons/logout.png')"></a></li>
+				<li href="#" id="logOut" title="Logout"><a href="#"><img src="images/resources/icons/logout.png"></a></li>
 			</ul>
 		</div>
 	</div>

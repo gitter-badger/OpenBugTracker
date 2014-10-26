@@ -29,9 +29,6 @@ $config_defaultTheme = '';
 //Default url of the platform (ex: http://www.example.com/bugtracker)
 $config_baseUrl = '';
 
-//If change logo on hover (true|false)
-$config_logoHover = true;
-
 // If display home page link in footer (true|false)
 $config_showFooterHome = true;
 

@@ -146,6 +146,11 @@ time, .smallInfo {
 	top: -5px;
 }
 
+/* Set transparency on hover*/
+#privateMessage:hover, #notification:hover, #logOut:hover {
+	opacity: 0.7;
+}
+
 /* Page menu */
 #pageHead {
 	height: 50px;
