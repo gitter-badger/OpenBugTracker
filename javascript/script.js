@@ -23,7 +23,6 @@ function enterSearch(searchDefault)
 	else
 	{
 		var search = document.getElementById('searchBox');
-		search.style.color = '#FFF';
 		if (search.value == searchDefault)
 		{
 			search.value = '';
@@ -40,7 +39,6 @@ function exitSearch(searchDefault)
 	else
 	{
 		var search = document.getElementById('searchBox');
-		search.style.color = 'rgba(255,255,255,0.6)';
 		if(search.value == '')
 		{
 			search.style.fontStyle = 'italic';
