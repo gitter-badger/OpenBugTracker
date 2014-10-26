@@ -10,7 +10,7 @@
 
 /* Main menu */
 #mainMenu li a, #userControl a, #search form input {
-	-webkit-transition: opacity 0.2s;
+	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
 }
 

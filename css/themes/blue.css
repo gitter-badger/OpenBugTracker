@@ -35,7 +35,7 @@ time, .smallInfo {
 
 #mainBar {
 	background-color: rgba(16, 78, 139, 1);
-	color: #FFF;
+	color: rgba(255, 255, 255, 1);
 }
 
 /* Main bar links color */
@@ -55,7 +55,7 @@ time, .smallInfo {
 
 /* Text color of main menu elements and user control when hover */
 #mainMenu li a:hover, #userControl a:hover  {
-	color: rgba(96, 175, 254, 1);
+	color: rgba(255, 255, 255, 0.7);
 }
 
 /* Page menu */
