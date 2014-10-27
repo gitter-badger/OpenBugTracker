@@ -8,14 +8,14 @@
  * OpenBugTracker it's a Open Source bug tracker and it's under the MIT License.
  */
 
-/* Main menu */
-#mainMenu li a, #userControl a, #search form input {
+/* Change the color on 0.2 seconds */
+.transColor02 {
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
 }
 
-/* User menu icons and logo */
-#logo, #privateMessage, #notification, #logOut {
+/* Change the opacity in 0.2 seconds */
+.transOpacity02 {
 	-webkit-transition: opacity 0.2s;
 	transition: opacity 0.2s;
 }
