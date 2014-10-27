@@ -21,7 +21,7 @@ if(!file_exists('configuration.php'))
 }
 else
 {
-	include_once 'php/topPage.php';
+	include 'php/topPage.php';
 	
 	//Check if login is done - TO DO
 	header('Location: home.php');

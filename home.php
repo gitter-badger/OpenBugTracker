@@ -12,10 +12,10 @@
  */
 
 // Loads topPage
-include_once 'php/topPage.php';
+include 'php/topPage.php';
 
 // Include plataforms configuration
-include_once 'configuration.php';
+include 'configuration.php';
 ?>
 
 <!DOCTYPE html>
@@ -30,7 +30,7 @@ include_once 'configuration.php';
 		 */
 		$title = null;
 		if($config_name == null)
-			$title = 'Dashboard';
+			$title = 'Home';
 
 		// Include common head values for all pages
 		include 'common_head.php'; ?>

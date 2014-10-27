@@ -12,10 +12,10 @@
  */
 
 // Loads topPage
-include_once 'php/topPage.php';
+include 'php/topPage.php';
 
 // Include plataforms configuration
-include_once 'configuration.php';
+include 'configuration.php';
 
 //Used to set the bug view
 if(isset($_GET['bugView']))
