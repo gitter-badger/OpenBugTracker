@@ -12,11 +12,7 @@
  * Meta data
  */
 
-if(!isset($theme))
-	if($config_defaultTheme == null)
-		$theme = 'blue';
-	else
-		$theme = $config_defaultTheme;
+$theme = $config_defaultTheme;
 
 ?>
 <!-- Set Meta data according to contents in configuration.php -->
@@ -24,7 +20,7 @@ if(!isset($theme))
 <meta name="description" content="<?php echo $config_description; ?>">
 
 <!-- Title of the page -->
-<title><?php if($config_name != null) { echo $config_name; if($config_showBugTracker) echo ' Bug Tracker'; if($title != null) echo ' - '; }  if($title != null) echo $title; ?></title>
+<title><?php echo $config_name; if($config_showBugTracker) echo ' Bug Tracker'; if($title != null) echo ' - ' . $title; ?></title>
 
 <!-- Style for all pages -->
 <link rel="stylesheet" type="text/css" href="css/style.css">

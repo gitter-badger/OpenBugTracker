@@ -11,8 +11,11 @@
  * User home page
  */
 
+// Loads topPage
+include_once 'php/topPage.php';
+
 // Include plataforms configuration
-include 'configuration.php';
+include_once 'configuration.php';
 ?>
 
 <!DOCTYPE html>

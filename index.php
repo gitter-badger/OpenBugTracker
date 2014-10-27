@@ -17,10 +17,12 @@ if(!file_exists('configuration.php'))
 	if(file_exists('install/'))
 		header('Location: install/');
 	else
-		echo 'Ups!! OpenBugTracker isn\'t installed and the installation folder don\'t exist.';
+		header('Location: error.php?error=1');
 }
 else
 {
+	include_once 'php/topPage.php';
+	
 	//Check if login is done - TO DO
 	header('Location: home.php');
 }

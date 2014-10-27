@@ -11,39 +11,39 @@
  * This file contains all OpenBugTracker configuration
  */
 
-//Name of the server
+//Name of the server (required)
 $config_name = '';
 
-//Show Bug Tracker in the title (true|false)
+//Show Bug Tracker in the title (true|false/null)
 $config_showBugTracker = true;
 
-//Charset to use
+//Charset to use (required)
 $config_charset = '';
 
-//Description of the platform
+//Description of the platform (required)
 $config_description = '';
 
-//Default theme to apply
+//Default theme to apply (required)
 $config_defaultTheme = '';
 
-//Default url of the platform (ex: http://www.example.com/bugtracker)
+//Default url of the platform (ex: http://www.example.com/bugtracker) (required)
 $config_baseUrl = '';
 
-// If display home page link in footer (true|false)
+// If display home page link in footer (true|false/null)
 $config_showFooterHome = true;
 
-//Link to footer homepage
+//Link to footer homepage (required if showFooterHome is true)
 $config_footerHome = '';
 
-// If display terms of service link in footer (true|false)
+// If display terms of service link in footer (true|false/null)
 $config_showFooterTerms = true;
 
-// If display status link in footer (true|false)
+// If display status link in footer (true|false/null)
 $config_showFooterStatus = true;
 
-//Link to footer status
+//Link to footer status (required if showFooterStatus is true)
 $config_footerStatus = '';
 
-// If the release is a nightly
+// If the release is a nightly (required)
 $config_nightly = true;
 ?>

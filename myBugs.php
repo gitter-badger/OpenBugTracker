@@ -11,8 +11,11 @@
  * Display the user their bugs.(Reported, assigned, monitored)
  */
 
+// Loads topPage
+include_once 'php/topPage.php';
+
 // Include plataforms configuration
-include 'configuration.php';
+include_once 'configuration.php';
 
 //Used to set the bug view
 if(isset($_GET['bugView']))
