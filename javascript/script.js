@@ -6,6 +6,8 @@
  * This file is part of OpenBugTracker.
  * 
  * OpenBugTracker it's a Open Source bug tracker and it's under the MIT License.
+ *
+ * JavaScript scripts used in OBT
  */
 
 var pageLoaded = false;// Check's if the page is loaded

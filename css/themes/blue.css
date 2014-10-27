@@ -6,9 +6,9 @@
  * This file is part of OpenBugTracker.
  * 
  * OpenBugTracker it's a Open Source bug tracker and it's under the MIT License.
+ *
+ * This file give the Blue theme to OpenBugTracker
  */
-
-/* Style for all elements */
 
 /* Style applied on the body */
 body {
@@ -32,7 +32,6 @@ time, .smallInfo {
 }
 
 /* Main bar */
-
 #mainBar {
 	background-color: rgba(16, 78, 139, 1);
 	color: rgba(255, 255, 255, 1);
@@ -49,6 +48,7 @@ time, .smallInfo {
 	background-color: rgba(0,0,0,0.2)
 }
 
+/* Search input when hover */
 #search form input:hover {
 	color: rgba(255, 255, 255, 1);
 }

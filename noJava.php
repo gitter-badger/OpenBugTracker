@@ -8,7 +8,7 @@
  * 
  * OpenBugTracker it's a Open Source bug tracker and it's under the MIT License.
  *
- * Display a warning to the use enable JavaScript
+ * Display a warning to the user to enable JavaScript
  */
 ?>
 <noscript>

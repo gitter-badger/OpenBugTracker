@@ -7,6 +7,8 @@
  * This file is part of OpenBugTracker.
  * 
  * OpenBugTracker it's a Open Source bug tracker and it's under the MIT License.
+ *
+ * This file relocates to login screen or to the home page
  */
  
 //Checks if OpenBugTracker is installed and if not, checks for the installation directory

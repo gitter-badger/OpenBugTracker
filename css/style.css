@@ -6,6 +6,8 @@
  * This file is part of OpenBugTracker.
  * 
  * OpenBugTracker it's a Open Source bug tracker and it's under the MIT License.
+ *
+ * This file is used to give style for all pages
  */
 
 /* Style for all elements */
@@ -44,7 +46,6 @@ time, .smallInfo {
 }
 
 /* Main bar */
-
 #mainBar {
 	position: absolute;
 	left: 0px;
@@ -56,7 +57,6 @@ time, .smallInfo {
 }
 
 /* Used to create the place where all the elements of the page are */
-
 .container {
 	width: 1000px;
 	margin: auto;
@@ -64,7 +64,6 @@ time, .smallInfo {
 }
 
 /* Remove ul dots */
-
 .container ul {
 	list-style: none;
 }
@@ -74,8 +73,7 @@ time, .smallInfo {
 	display: inline;
 }
 
-
-
+/* Logo */
 #logo {
 	max-height: 35px;
 	min-height: 35px;
@@ -226,10 +224,12 @@ time, .smallInfo {
 	margin: 5px 0px 10px 0px;
 }
 
+/* When the list is hover*/
 .list:hover {
 	border-radius: 5px;
 }
 
+/* Separate the various lists */
 .listSeparator {
     border: 0;
 }
@@ -249,6 +249,7 @@ time, .smallInfo {
 	float: left;
 }
 
+/* When a list is selected */
 .selectedList {
 	border-radius: 5px;
 }
@@ -259,6 +260,7 @@ time, .smallInfo {
 	margin: 5px 0px 0px 0px;
 }
 
+/* When the list is hover*/
 .smallList:hover {
 	border-radius: 5px;
 }
@@ -284,6 +286,7 @@ time, .smallInfo {
 	margin: 5px 0px 10px 0px;
 }
 
+/* When the list is hover*/
 .largeList:hover {
 	border-radius: 5px;
 }

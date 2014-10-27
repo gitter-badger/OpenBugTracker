@@ -1,6 +1,6 @@
 <?php
 /*
- * dashboard.php
+ * home.php
  * 
  * Copyright 2014 Hugo Rodrigues hugorodrigues.developer<at>outlook<dot>com
  * 
@@ -8,7 +8,7 @@
  * 
  * OpenBugTracker it's a Open Source bug tracker and it's under the MIT License.
  *
- * User dashboard
+ * User home page
  */
 
 // Include plataforms configuration
