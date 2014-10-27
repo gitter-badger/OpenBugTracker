@@ -25,12 +25,6 @@ time, .smallInfo {
 	color: rgba(187, 187, 187, 1);
 }
 
- /* Show warning when javascript is disable */
-#noJava {
-	color: rgba(255, 255, 255, 1);
-	background-color: rgba(0, 0, 0, 1);
-}
-
 /* Main bar */
 #mainBar {
 	background-color: rgba(16, 78, 139, 1);

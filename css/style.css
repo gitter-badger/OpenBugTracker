@@ -43,6 +43,8 @@ time, .smallInfo {
 	vertical-align: middle;
 	text-align: center;
 	z-index: 200000;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(0, 0, 0, 1);
 }
 
 /* Main bar */
