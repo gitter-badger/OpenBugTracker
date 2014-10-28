@@ -10,20 +10,9 @@
  *
  * This file relocates to login screen or to the home page
  */
- 
-//Checks if OpenBugTracker is installed and if not, checks for the installation directory
-if(!file_exists('configuration.php'))
-{
-	if(file_exists('install/'))
-		header('Location: install/');
-	else
-		header('Location: error.php?error=1');
-}
-else
-{
-	include 'php/topPage.php';
-	
-	//Check if login is done - TO DO
-	header('Location: home.php');
-}
+
+require 'php/topPage.php';
+
+//Check if login is done - TO DO
+header('Location: home.php');
 ?>

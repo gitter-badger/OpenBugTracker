@@ -83,7 +83,7 @@ else
 	</head>
 	<body>
 		<?php
-		include_once 'noJava.php';
+		require 'noJava.php';
 		?>
 		<div>
 			<img src="images/resources/error.png">

@@ -12,10 +12,10 @@
  */
 
 // Loads topPage
-include 'php/topPage.php';
+require 'php/topPage.php';
 
 // Include plataforms configuration
-include 'configuration.php';
+require 'configuration.php';
 ?>
 
 <!DOCTYPE html>
@@ -33,16 +33,16 @@ include 'configuration.php';
 			$title = 'Home';
 
 		// Include common head values for all pages
-		include 'common_head.php'; ?>
+		require 'common_head.php'; ?>
 	</head>
 
 	<body onload="load()">
 		<?php
 		// Include warning to enable javascript, if it's disabled.
-		include 'noJava.php';
+		require 'noJava.php';
 
 		// Include mainbar of the plataform
-		include 'mainBar.php';
+		require 'mainBar.php';
 		?>
 
 		<!-- Page head off the page -->
@@ -87,7 +87,7 @@ include 'configuration.php';
 		</div>
 		<?php
 		// Include plataform footer
-		include 'footer.php';
+		require 'footer.php';
 		?>
 		</div>
 	</body>

@@ -11,10 +11,19 @@
  * In this file are all the PHP scripts that are used on top of every page
  */
 
-//Check if all required vars are set
-require_once 'php/checkVars.php';
+//Required files
+//checkVars
+require 'php/checkVars.php';
 $requiredVars = new checkVars();
-if($requiredVars->mandatoryVars())
-	header('Location: error.php?error=2');
 
+
+if(!file_exists('configuration.php'))
+{
+	if(file_exists('install/'))
+		header('Location: install/');
+	else
+		header('Location: error.php?error=1');
+}
+else if($requiredVars->mandatoryVars())
+	header('Location: error.php?error=2');
 ?>

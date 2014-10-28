@@ -10,6 +10,7 @@
  *
  * Footer to display in all pages
  */
+
 ?>
 <div id="footer" class="clearFloat">
 	<div class="container">

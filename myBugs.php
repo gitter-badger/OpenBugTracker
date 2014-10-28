@@ -12,10 +12,10 @@
  */
 
 // Loads topPage
-include 'php/topPage.php';
+require 'php/topPage.php';
 
-// Include plataforms configuration
-include 'configuration.php';
+// require plataforms configuration
+require 'configuration.php';
 
 //Used to set the bug view
 if(isset($_GET['bugView']))
@@ -42,17 +42,17 @@ else
 		 */
 		$title = 'My Bugs';
 
-		// Include common head values for all pages
-		include 'common_head.php'; ?>
+		// require common head values for all pages
+		require_once 'common_head.php'; ?>
 	</head>
 
 	<body onload="load()">
 		<?php
-		// Include warning to enable javascript, if it's disabled.
-		include 'noJava.php';
+		// require warning to enable javascript, if it's disabled.
+		require 'noJava.php';
 
-		// Include mainbar of the plataform
-		include 'mainBar.php';
+		// require mainbar of the plataform
+		require 'mainBar.php';
 		?>
 
 		<!-- Page head off the page -->
@@ -112,8 +112,8 @@ else
 				</div>
 			</div>
 		<?php
-		// Include plataform footer
-		include 'footer.php';
+		// require plataform footer
+		require 'footer.php';
 		?>
 		</div>
 	</body>
