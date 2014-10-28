@@ -75,9 +75,14 @@ else
 
 		<script type="text/javascript">
 			function showInfo () {
-				document.getElementById('info').innerHTML = "<?php echo 'Error ' . $error . ': ' . $message; ?>";
+				<?php
+				if($error != null)
+					echo 'document.getElementById(\'info\').innerHTML = "Error ' . $error . ': ' . $message .'";';
+				else
+					echo 'document.getElementById(\'info\').innerHTML = "' . $message . '";';
+				?>
 				document.getElementById('info').style.cursor = 'default';
-                document.getElementById('info').className = "";
+                document.getElementById('info').className = '';
 			}
 		</script>
 	</head>
