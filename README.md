@@ -1,5 +1,3 @@
-**Developers, please see [this](https://github.com/Hugao/OpenBugTracker/wiki/Big-Changes)**
-
 Welcome to OpenBugTracker.
 -
 Don't lose on your project's. Track all the bug's that you, your collaborator's and the users of your project's report.<br>
