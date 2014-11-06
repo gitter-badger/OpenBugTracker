@@ -25,7 +25,7 @@ class checkVars {
 			$erroFound = true;
 		else if ($config_showFooterStatus == true && $config_footerStatus == null)//Show Status in footer
 			$erroFound = true;
-		else if ($config_nightly == null)//Nightly
+		else if ($config_dev == null)//Nightly
 			$erroFound = true;
 
 		return $erroFound;

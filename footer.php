@@ -15,8 +15,8 @@
 <div id="footer" class="clearFloat">
 	<div class="container">
 		<?php
-		// If the platform is a nightly build, shows the messagee
-		if($config_nightly == true) echo '<div>This is a nightly release of OpenBugTracker. Use at your own risk. See more in <a href="about.php#branch">about</a></div>';
+		// If the platform is a development build, shows the message
+		if($config_dev == true) echo '<div>This is a development release of OpenBugTracker. Use at your own risk. See more in <a href="about.php#branch">about</a></div>';
 		?>
 
 		<!-- Footer links -->

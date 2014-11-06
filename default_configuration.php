@@ -44,6 +44,6 @@ $config_showFooterStatus = true;
 //Link to footer status (required if showFooterStatus is true)
 $config_footerStatus = '';
 
-// If the release is a nightly (required)
-$config_nightly = true;
+// If the release is a development (required)
+$config_deve = true;
 ?>
