@@ -14,8 +14,8 @@
  * |  Error  |      Description      |
  * |---------|-----------------------|
  * |   null  |     Unknown error     |
- * |    0    |   OBT not installed   |
- * |    1    |  Required VAR not set |
+ * |    1    |   OBT not installed   |
+ * |    2    |  Required VAR not set |
  */
 
 if (isset($_GET['error']))
@@ -46,14 +46,19 @@ else
 			text-align: center;
 			background-color: rgba(245, 245, 245, 1);
 			font-family: sans-serif;
+			cursor: default;
+		}
+
+		a {
+			text-decoration: none;
 		}
 
 		#info {
-			cursor: pointer;
 			font-weight: bold;
 		}
 
 		.infoHover:hover {
+			cursor: pointer;
 			color: rgba(38, 38, 36, 1);
 		}
 
@@ -81,7 +86,6 @@ else
 				else
 					echo 'document.getElementById(\'info\').innerHTML = "' . $message . '";';
 				?>
-				document.getElementById('info').style.cursor = 'default';
                 document.getElementById('info').className = '';
 			}
 		</script>
@@ -93,7 +97,14 @@ else
 		<div>
 			<img src="images/resources/error.png">
 			<p>Something bad happen. An error occurred while performing the task.</p>
-			<div id="info" class="infoHover" onclick="showInfo();">Show me more</div>
+			<div id="info" class="infoHover" onclick="showInfo();">
+				Show me more
+			</div><br>
+			<div>
+				<a href="http://<?php echo $_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF']); ?>" title="Back to OpenBugTracker">
+					<img src="images/resources/64x64/back.png">
+				</a>
+			</div>
 		</div>
 	</body>
 </html>
