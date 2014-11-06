@@ -27,7 +27,8 @@ $config_description = '';
 $config_defaultTheme = '';
 
 //Default url of the platform (ex: http://www.example.com/bugtracker) (required)
-$config_baseUrl = '';
+//Already fill with default location of OpenBugTracker using PHP functions
+$config_baseUrl = 'http://' . $_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF']);
 
 // If display home page link in footer (true|false/null)
 $config_showFooterHome = true;
