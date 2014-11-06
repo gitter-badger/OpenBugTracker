@@ -10,9 +10,6 @@
  *
  * Platform main menu/bar
  */
-
-// Text displayed in the search bar
-$searchDefault = 'Search';
 ?>
 <div id="mainBar">
 	<div class="container">

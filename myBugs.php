@@ -51,6 +51,9 @@ else
 		// require warning to enable javascript, if it's disabled.
 		require 'noJava.php';
 
+		// Text displayed in the search bar
+		$searchDefault = 'Search MyBugs';
+
 		// require mainbar of the plataform
 		require 'mainBar.php';
 		?>
@@ -60,10 +63,10 @@ else
 			<div class="container">
 				<span id="pageTitle">My bugs</span>
 				<div id="headControls">
-					<div class="headButton<?php if($bugView == null) echo ' underSelected'; ?>"><a href="mybugs.php<?php if($projectView != null) echo '?projectView=' . $projectView; ?>">All</a></div>
-					<div class="headButton<?php if($bugView == 'assigned') echo ' underSelected'; ?>"><a href="mybugs.php?bugView=assigned<?php if($projectView != null) echo '&projectView=' . $projectView; ?>">Assigned to me</a></div>
-					<div class="headButton<?php if($bugView == 'reported') echo ' underSelected'; ?>"><a href="mybugs.php?bugView=reported<?php if($projectView != null) echo '&projectView=' . $projectView; ?>">Reported by me</a></div>
-					<div class="headButton<?php if($bugView == 'monitored') echo ' underSelected'; ?>"><a href="mybugs.php?bugView=monitored<?php if($projectView != null) echo '&projectView=' . $projectView; ?>">Monitored by me</a></div>
+					<div class="headButton <?php if($bugView == null) echo 'underSelected'; ?>"><a href="mybugs.php<?php if($projectView != null) echo '?projectView=' . $projectView; ?>">All</a></div>
+					<div class="headButton <?php if($bugView == 'assigned') echo 'underSelected'; ?>"><a href="mybugs.php?bugView=assigned<?php if($projectView != null) echo '&projectView=' . $projectView; ?>">Assigned to me</a></div>
+					<div class="headButton <?php if($bugView == 'reported') echo 'underSelected'; ?>"><a href="mybugs.php?bugView=reported<?php if($projectView != null) echo '&projectView=' . $projectView; ?>">Reported by me</a></div>
+					<div class="headButton <?php if($bugView == 'monitored') echo 'underSelected'; ?>"><a href="mybugs.php?bugView=monitored<?php if($projectView != null) echo '&projectView=' . $projectView; ?>">Monitored by me</a></div>
 				</div>
 			</div>
 		</div>

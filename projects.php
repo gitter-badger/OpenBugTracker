@@ -1,6 +1,6 @@
 <?php
 /*
- * home.php
+ * projects.php
  * 
  * Copyright 2014 Hugo Rodrigues hugorodrigues.developer<at>outlook<dot>com
  * 
@@ -8,7 +8,7 @@
  * 
  * OpenBugTracker it's a Open Source bug tracker and it's under the MIT License.
  *
- * User home page
+ * List of all projects
  */
 
 // Loads topPage
@@ -30,7 +30,11 @@ require 'configuration.php';
 		 */
 		$title = null;
 		if($config_name == null)
-			$title = 'Home';
+			$title = 'Projects';
+
+		$projectView = null;
+		if(isset($_GET['projectView']))
+			$projectView = $_GET['projectView'];
 
 		// Include common head values for all pages
 		require 'common_head.php'; ?>
@@ -42,8 +46,8 @@ require 'configuration.php';
 		require 'noJava.php';
 
 		// Text displayed in the search bar
-		$searchDefault = 'Search';
-
+		$searchDefault = 'Search projects';
+		
 		// Include mainbar of the plataform
 		require 'mainBar.php';
 		?>
@@ -51,42 +55,20 @@ require 'configuration.php';
 		<!-- Page head off the page -->
 		<div id="pageHead">
 			<div class="container">
-				<span id="pageTitle">Welcome</span>
+				<span id="pageTitle">Projects</span>
+				<div id="headControls">
+					<div class="headButton <?php if($projectView == null) echo 'underSelected'; ?>"><a href="projects.php">All</a></div>
+					<div class="headButton <?php if($projectView == 'imIn') echo 'underSelected'; ?>"><a href="projects.php?projectView=imIn">Projects where I'm in</a></div>
+					<div class="headButton <?php if($projectView == 'create') echo 'underSelected'; ?>"><a href="projects.php?projectView=create">Create project</a></div>
+					<div class="headButton <?php if($projectView == 'manage') echo 'underSelected'; ?>"><a href="projects.php?projectView=manage">Manage projects</a></div>
+				</div>
 			</div>
 		</div>
 
 		<!-- Working area -->
 		<div id="workspace">
 			<div class="container">
-				<div class="largeList">
-					<div class="largeListLogo">
-						<img src="">
-					</div>
-					<div class="largeListContent">
-						<time datetime="PT1H15MIN">1 hour and 15 minutes</time><br>
-						News feed example
-					</div>
-				</div>
-				<hr class="listSeparator">
-				<div class="largeList">
-					<div class="largeListLogo">
-						<img src="">
-					</div>
-					<div class="largeListContent">
-						<time datetime="P2D">2 days</time><br>
-						News feed example
-					</div>
-				</div>
-				<hr class="listSeparator">
-				<div class="largeList">
-					<div class="largeListLogo">
-						<img src="">
-					</div>
-					<div class="largeListContent">
-						<time datetime="2014-09-30T01:29">30 of September of 2014 at 01:29</time><br>
-						News feed example
-					</div>
-				</div>
+				lorem ipsun
 			</div>
 		<?php
 		// Include plataform footer
