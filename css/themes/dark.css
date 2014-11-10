@@ -1,0 +1,134 @@
+/*
+ * dark.css
+ * 
+ * Copyright 2014 Hugo Rodrigues hugorodrigues.developer<at>outlook<dot>com
+ * 
+ * This file is part of OpenBugTracker.
+ * 
+ * OpenBugTracker it's a Open Source bug tracker and it's under the MIT License.
+ *
+ * This file give the Dark theme to OpenBugTracker
+ */
+
+/* Style applied on the body */
+body {
+	background-color: rgba(245, 245, 245, 1);
+}
+
+/* Remove a tag decoration */
+a {
+	color: rgba(0, 0, 0, 1);
+}
+
+/* Set hour color and size for time tag and class smallInfo */
+time, .smallInfo {
+	color: rgba(187, 187, 187, 1);
+}
+
+/* Main bar */
+#mainBar {
+	background-color: rgba(51, 51, 51, 1);
+	color: rgba(255, 255, 255, 1);
+}
+
+/* Main bar links color */
+#mainBar a, #mainBar * a {
+	color: rgba(255, 255, 255, 1);
+}
+
+/* Search input */
+#search form input {
+	color: rgba(255,255,255,0.6);
+	background-color: rgba(0,0,0,0.2)
+}
+
+/* Search input when hover */
+#search form input:hover {
+	color: rgba(255, 255, 255, 1);
+}
+
+/* Text color of main menu elements and user control when hover */
+#mainMenu li a:hover, #userControl a:hover  {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+/* Page menu */
+#pageHead {
+	border-bottom: 1px solid rgba(229, 229, 229, 1);
+	background-color: rgba(245, 245, 245, 1);
+}
+
+/* When a button is hover */
+.headButton a:hover {
+	color: rgba(0, 136, 204, 1);
+}
+
+/* Workspace area */
+#workspace {
+	background-color: rgba(255, 255, 255, 1);
+}
+
+/* Footer */
+#footer {
+	border-top: 1px solid: rgba(229, 229, 229, 1);
+	background-color: rgba(245, 245, 245, 1);
+}
+
+/* Copyright links*/
+#footer * a {
+	color: rgba(0, 136, 204, 1);
+}
+
+/* Copyright links color on hover */
+#footer * a:hover {
+	color: rgba(96, 175, 254, 1);
+}
+
+/* Select indicator under element */
+.underSelected {
+	border-bottom: 2px solid rgba(0, 136, 204, 1);
+}
+
+/* Select indicator over element */
+.overSelected {
+	border-top: 2px solid rgba(0, 136, 204, 1);
+}
+
+.list:hover {
+	background-color: rgba(245, 245, 245, 1);
+	color: rgba(0, 0, 0, 1);
+}
+
+.listSeparator {
+    border-top: 1px solid rgba(229, 229, 229, 1);
+}
+
+/* Logo relative to the list */
+.listLogo {
+	border: 1px solid rgba(229, 229, 229, 1);
+}
+
+.selectedList {
+	background-color: rgba(0, 136, 204, 1);
+	color: rgba(255, 255, 255, 1);
+}
+
+.smallList:hover {
+	background-color: rgba(245, 245, 245, 1);
+	color: rgba(0, 0, 0, 1);
+}
+
+/* Logo relative to the list */
+.smallListLogo {
+	border: 1px solid rgba(229, 229, 229, 1);
+}
+
+.largeList:hover {
+	background-color: rgba(245, 245, 245, 1);
+	color: #000;
+}
+
+/* Logo relative to the list */
+.largeListLogo {
+	border: 1px solid rgba(229, 229, 229, 1);
+}
