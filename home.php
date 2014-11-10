@@ -58,7 +58,7 @@ require 'configuration.php';
 		<!-- Working area -->
 		<div id="workspace">
 			<div class="container">
-				<div class="largeList">
+				<div class="largeList transBgColor02">
 					<div class="largeListLogo">
 						<img src="">
 					</div>
@@ -68,7 +68,7 @@ require 'configuration.php';
 					</div>
 				</div>
 				<hr class="listSeparator">
-				<div class="largeList">
+				<div class="largeList transBgColor02">
 					<div class="largeListLogo">
 						<img src="">
 					</div>
@@ -78,7 +78,7 @@ require 'configuration.php';
 					</div>
 				</div>
 				<hr class="listSeparator">
-				<div class="largeList">
+				<div class="largeList transBgColor02">
 					<div class="largeListLogo">
 						<img src="">
 					</div>

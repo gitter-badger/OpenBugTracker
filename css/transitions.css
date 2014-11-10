@@ -16,8 +16,21 @@
 	transition: color 0.2s;
 }
 
+/* Change the color on 0.5 seconds */
+.transBgColor02 {
+	-webkit-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+
 /* Change the opacity in 0.2 seconds */
 .transOpacity02 {
 	-webkit-transition: opacity 0.2s;
 	transition: opacity 0.2s;
+}
+
+/* Links transitions */
+
+a {
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
 }

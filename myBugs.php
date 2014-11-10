@@ -77,14 +77,14 @@ else
 				<!-- Projects list -->
 				<div class="left smallPane">
 					<a href="mybugs.php<?php if($bugView != null) echo '?bugView=' . $bugView; ?>">
-						<div class="smallList <?php if($projectView == null) echo 'selectedList'; ?>">
+						<div class="smallList transBgColor02 <?php if($projectView == null) echo 'selectedList'; ?>">
 								<div class="smallListContent">
 									All Projects
 								</div>
 						</div>
 					</a>
 					<a href="mybugs.php?projectView=1<?php if($bugView != null) echo '&bugView=' . $bugView; ?>">
-						<div class="smallList <?php if($projectView == 1) echo 'selectedList'; ?>">
+						<div class="smallList transBgColor02 <?php if($projectView == 1) echo 'selectedList'; ?>">
 								<div class="smallListContent">
 									Project 1
 								</div>
@@ -93,7 +93,7 @@ else
 				</div>
 					<!-- Bug list -->
 				<div class="left largePane">
-					<div class="list">
+					<div class="list transBgColor02">
 						<div class="listLogo">
 							<img src="">
 						</div>
@@ -103,7 +103,7 @@ else
 						</div>
 					</div>
 					<hr class="listSeparator">
-					<div class="list">
+					<div class="list transBgColor02">
 						<div class="listLogo">
 							<img src="">
 						</div>
