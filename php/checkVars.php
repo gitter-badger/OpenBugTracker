@@ -11,21 +11,21 @@ class checkVars {
 		//Used to detect if an error was found
 		$erroFound = false;
 
-		if($config_name == null)//Plataform name
+		if(!isset($config_name) || $config_name == null)//Plataform name
 			$erroFound = true;
-		else if ($config_charset == null)//Page charset
+		else if (!isset($config_charset) || $config_charset == null)//Page charset
 			$erroFound = true;
-		else if ($config_description == null)//Page description
+		else if (!isset($config_description) || $config_description == null)//Page description
 			$erroFound = true;
-		else if ($config_defaultTheme == null)//Default theme
+		else if (!isset($config_defaultTheme) || $config_defaultTheme == null)//Default theme
 			$erroFound = true;
-		else if ($config_baseUrl == null)//Plataform base URL
+		else if (!isset($config_baseUrl) || $config_baseUrl == null)//Plataform base URL
 			$erroFound = true;
-		else if ($config_showFooterHome == true && $config_footerHome == null)//Show home in footer
+		else if (!isset($config_showFooterHome) || $config_showFooterHome == true && $config_footerHome == null)//Show home in footer
 			$erroFound = true;
-		else if ($config_showFooterStatus == true && $config_footerStatus == null)//Show Status in footer
+		else if (!isset($config_showFooterStatus) || $config_showFooterStatus == true && $config_footerStatus == null)//Show Status in footer
 			$erroFound = true;
-		else if ($config_dev == null)//Nightly
+		else if (!isset($config_dev) || $config_dev == null)//Nightly
 			$erroFound = true;
 
 		return $erroFound;
