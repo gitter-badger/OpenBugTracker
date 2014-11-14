@@ -13,3 +13,5 @@ Flavors of OpenBugTracker
 Check the wiki
 -
 Check the [Wiki](https://github.com/Hugao/OpenBugTracker/wiki/) for all the information about OpenBugTracker.
+
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/Hugao/OpenBugTracker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
